@@ -21,20 +21,20 @@ for testing or further development.
 
 6. Run the script by giving your terminal the command 'python photo-organizer.py' or simply double click the python file only after you've specified the paths. Make sure if using the terminal you specify the path the file is in. To do this you would run 'cd (specify the directory of .py file)' then proceed to type in the command to run it.
 
-#Testing
+# Testing
 I've done quite a bit of testing with this project so far. I had an issue with the paths when not using r before the path to indicate a raw string. The backslashes in the windows paths were creating errors. I fixed this up and it works like a charm. I've tested it with hundreds of photos and it finishes in a few secionds. I've also made sure to try and put mp4, mov, and heic files within to make sure it skips over the files it cannot process. This ensures the script continues running even when there are file types it doesnt recognize.
 
-#Built With
+# Built With
 - Python- 3.12.2
 - Pillow- Python Imaging Library for image processing
 
-#Contributing
-Contributions are not just welcome they are encouraged! If you find any issues or have suggestions for improvments, I'm all ears. Feel free to open an issue or submit a pull request.\
+# Contributing
+Contributions are Welcdome! If you find any issues or have suggestions for improvments, I'm all ears. Feel free to open an issue or submit a pull request.
 
-#License
+# License
 This project is licensed under the MIT License - see the the LICENSE.md file for details
 
-#Acknowledgements
+# Acknowledgements
 - Props to the developers of the Pillow library for providing fast and powerful image processing capabilities.
 - Inspiration from Aaron Yu in this article https://python.plainenglish.io/create-a-photo-organizer-in-1-hour-with-python-9d4b82552f21
 - Along with inspiration from MadTc Tech in this video
