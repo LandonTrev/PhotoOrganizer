@@ -1,5 +1,5 @@
 # Photo Organizing Script
-This is a script I designed to automatically sort photos based on their creation date extracted from EXIF metadata. It scans a source folder containing photos and organizes them into seperate folders based on the date they were taken. It then moves the organized folders into a destination folder. As of now it is only capable of sorting .jpeg .jpg and .png file types. I plan on trying to implement compatibility with .heic .mov and .mp4 files soon along with a gui that allows you to browse for the directory or your source folder and your output folder.
+This is a script I designed to automatically sort photos based on their creation date extracted from EXIF metadata. It scans a source folder containing photos and organizes them into seperate folders based on the date they were taken. It then moves the organized folders into a destination folder. As of now it is only capable of sorting .jpeg .jpg and .png file types. 
 
 # Getting Started
 Follow these instructions to help you set up the script on you computer
@@ -29,7 +29,12 @@ I've done quite a bit of testing with this project so far. I had an issue with t
 - Pillow- Python Imaging Library for image processing
 
 # Contributing
-Contributions are Welcdome! If you find any issues or have suggestions for improvments, I'm all ears. Feel free to open an issue or submit a pull request.
+Contributions are Welcome! If you find any issues or have suggestions for improvments, I'm all ears. Feel free to open an issue or submit a pull request.
+
+# Road Map
+There are a few more things I'd like to implement into this code in the future. 
+- I want to incude .mov, .mp4, and .heic file formats and have the script sort these as well. The metadata structures are different in these formats which is why I havent yet. I would have to implement pyheif and moviepy librarys in order for this to work i believe.
+- I also plan on integrating an interactable gui that lets you browse for your source and destination folders instead of having to edit the local and destination paths of the script 
 
 # License
 This project is licensed under the MIT License - see the the LICENSE.md file for details
