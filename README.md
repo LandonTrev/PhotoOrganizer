@@ -1,5 +1,5 @@
 # Photo Organizing Script
-This is a script I designed to automatically sort photos based on their creation date extracted from EXIF metadata. It scans a source folder containing photos and organizes them into seperate folders based on the date they were taken. It then moves the organized folders into a destination folder. As of now it is only capable of sorting .jpeg .jpg and .png file types. 
+This is a script I designed to automatically sort photos based on their creation date extracted from EXIF metadata. It scans a source folder containing photos and organizes them into seperate folders based on the date they were taken. It then moves the organized folders into a destination folder. As of now it is only capable of sorting .jpeg .jpg and .png file types. This is very practical if you have loads of pictures on an sd card or your phone. Instead of just backing them up you can organize them so they are easier to look back at.
 
 # Getting Started
 Follow these instructions to help you set up the script on you computer
