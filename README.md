@@ -37,7 +37,7 @@ There are a few more things I'd like to implement into this code in the future.
 - I also plan on integrating an interactable gui that lets you browse for your source and destination folders instead of having to edit the local and destination paths of the script 
 
 # License
-This project is licensed under the MIT License - see the the LICENSE.md file for details
+This project is licensed under the MIT License - see the the LICENSE file for details
 
 # Acknowledgements
 - Props to the developers of the Pillow library for providing fast and powerful image processing capabilities.
