@@ -22,7 +22,7 @@ for testing or further development.
 6. Run the script by giving your terminal the command 'python photo-organizer.py' or simply double click the python file only after you've specified the paths. Make sure if using the terminal you specify the path the file is in. To do this you would run 'cd (specify the directory of .py file)' then proceed to type in the command to run it.
 
 # Testing
-I've done quite a bit of testing with this project so far. I had an issue with the paths when not using r before the path to indicate a raw string. The backslashes in the windows paths were creating errors. I fixed this up and it works like a charm. I've tested it with hundreds of photos and it finishes in a few secionds. I've also made sure to try and put mp4, mov, and heic files within to make sure it skips over the files it cannot process. This ensures the script continues running even when there are file types it doesnt recognize.
+I've done quite a bit of testing with this project so far. I had an issue with the paths when not using r before the path to indicate a raw string. The backslashes in the windows paths were creating errors. I fixed this up and it works like a charm. I've tested it with hundreds of photos and it finishes in a few seconds. I've also made sure to try and put mp4, mov, and heic files within to make sure it skips over the files it cannot process. This ensures the script continues running even when there are file types it doesnt recognize.
 
 # Built With
 - Python- 3.12.2
