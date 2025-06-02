@@ -1,5 +1,5 @@
-import os  #Imports os module for file and directory operations
-from PIL import Image #Imports image module from the Pillow Library for image processing
+import os  
+from PIL import Image #image module from Pillow Library(Image Processing)
 from PIL.Exiftags import TAGS #Imports TAGS from the Exiftags module in the Pillow Library for Exif data extraction https://pillow.readthedocs.io/en/stable/reference/ExifTags.html
 import shutil # Imports shutil module for high-level file operations
 import time #Imports the time module. For measuring execution time of the program.
