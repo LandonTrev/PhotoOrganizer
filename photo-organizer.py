@@ -5,9 +5,9 @@ import shutil # Imports shutil module for high-level file operations
 import time #Imports the time module. For measuring execution time of the program.
 
 #Source folder 
-localPath = r'FOLDER PATH OF THE SOURCE FOLDER HERE'
+localPath = input('What is the directory of the source folder? ')
 #Destination Folder 
-destinationPath = r'FOLDER PATH OF DESTINATION FOLDER HERE'
+destinationPath = input('What is the directory of the destination folder? ')
 
 # Mapping EXIF tag names to their respective codes for easier retrieval
 _TAGS_r = dict(((v, k) for k, v in TAGS.items()))
